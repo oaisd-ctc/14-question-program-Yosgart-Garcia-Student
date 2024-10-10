@@ -51,7 +51,7 @@ public class Program
 
         Console.WriteLine("My friend's name is " + name + ". " + name + " is " + age + " years old. " + name + "'s eye color is " + eyeColor + ". "
          + name + "'s hair color is " + hairColor + ". " + name + "'s shoe size is " + shoeSize + ". Their favorite color is " + favoriteColor + ". "
-         + name + "'s favorite TV show/movie is " + favoriteShowOrMovie + ". " + name + "'s favorite class is Software and Game Development instructed by Mr. Martinez! " + name + "'s favorite holiday is " + favoriteHoliday + ". "
+         + name + "'s favorite TV show/movie is " + favoriteShowOrMovie + ". " + name + "'s favorite class is definitely Software and Game Development instructed by Mr. Martinez! " + name + "'s favorite holiday is " + favoriteHoliday + ". "
          + name + "'s favorite season is " + favoriteSeason + ". " + name + "'s dream job is " + dreamJob + ". " + name + " does " + hasSiblings + "have siblings.");
     }
 }
