@@ -2,53 +2,119 @@
 
 public class Program
 {
+    static string name;
+    static int age;
+    static string eyeColor;
+    static string hairColor;
+    static float shoeSize;
+    static string favoriteColor;
+    static string favoriteShowOrMovie;
+    static string favoriteTeacher;
+    static string favoriteClass;
+    static string favoriteHoliday;
+    static string favoriteSeason;
+    static string dreamJob;
+    static string ageIn5Years;
+    static int siblingsAmount;
+    static string hasSiblings;
     public static void Main(string[] args)
     {
+        AskName();
+        AskAge();
+        AskEyeColor();
+        AskHairColor();
+        AskShoeSize();
+        
+    }
+
+    public static void AskName()
+    {
         Console.WriteLine("What is your name?");
-        string name = Console.ReadLine();
+        name = Console.ReadLine();
+    }
 
+    public static void AskAge()
+    {
         Console.WriteLine("What is your age?");
-        int age = int.Parse(Console.ReadLine());
+        age = int.Parse(Console.ReadLine());
+    }
 
+    public static void AskEyeColor()
+    {
         Console.WriteLine("What is your eye color?");
-        string eyeColor = Console.ReadLine();
+        eyeColor = Console.ReadLine();
+    }
 
+    public static void AskHairColor()
+    {
         Console.WriteLine("What color is your hair?");
-        string hairColor = Console.ReadLine();
+         hairColor = Console.ReadLine();
+    }
 
+    public static void AskShoeSize()
+    {
         Console.WriteLine("What is your shoe size?");
-        float shoeSize = float.Parse(Console.ReadLine());
+         shoeSize = float.Parse(Console.ReadLine());
+    }
 
+    public static void AskFavoriteColor()
+    {
         Console.WriteLine("What is your favorite color?");
-        string favoriteColor = Console.ReadLine();
+         favoriteColor = Console.ReadLine();
+    }
 
+    public static void AskFavoriteShowOrMovie()
+    {
         Console.WriteLine("What is your favorite TV show or movie?");
-        string favoriteShowOrMovie = Console.ReadLine();
+         favoriteShowOrMovie = Console.ReadLine();
+    }
 
+    public static void AskFavoriteTeacher()
+    {
         Console.WriteLine("Who is your favorite teacher?");
-        string favoriteTeacher = Console.ReadLine();;
+         favoriteTeacher = Console.ReadLine();;
+    }
 
+    public static void AskFavoriteClass()
+    {
         Console.WriteLine("What is your favorite class?");
-        string favoriteClass = Console.ReadLine();;
+         favoriteClass = Console.ReadLine();
+    }
 
+    public static void AskFavoriteHoliday()
+    {
         Console.WriteLine("What is your favorite holiday?");
-        string favoriteHoliday = Console.ReadLine();
+         favoriteHoliday = Console.ReadLine();
+    }
 
+    public static void AskFavoriteSeason()
+    {
         Console.WriteLine("What is your favorite season?");
-        string favoriteSeason = Console.ReadLine();
+         favoriteSeason = Console.ReadLine();
+    }
 
+    public static void AskDreamJob()
+    {
         Console.WriteLine("What is your dream job?");
-        string dreamJob = Console.ReadLine();
+         dreamJob = Console.ReadLine();
+    }
 
+    public static void CalulateAgeIn5Years(int age)
+    {
         Console.WriteLine("Your age in 5 years will be " + (age + 5) + "!");
+    }
 
+    public static void AskNumberOfSiblings()
+    {
         Console.WriteLine("How many siblings do you have?");
-        int siblingsAmount = int.Parse(Console.ReadLine());
+        siblingsAmount = int.Parse(Console.ReadLine());
 
-        string hasSiblings;
         if (siblingsAmount > 0) hasSiblings = null;
         else hasSiblings = "not ";
+    }
 
+    public static void DisplaySummaryMessage()
+    {
         Console.WriteLine("My friend's name is " + name + ". " + name + " is " + age + " years old. " + name + "'s eye color is " + eyeColor + ". "
          + name + "'s hair color is " + hairColor + ". " + name + "'s shoe size is " + shoeSize + ". Their favorite color is " + favoriteColor + ". "
          + name + "'s favorite TV show/movie is " + favoriteShowOrMovie + ". " + name + "'s favorite class is definitely Software and Game Development instructed by Mr. Martinez! " + name + "'s favorite holiday is " + favoriteHoliday + ". "
