@@ -24,7 +24,16 @@ public class Program
         AskEyeColor();
         AskHairColor();
         AskShoeSize();
-        
+        AskFavoriteColor();
+        AskFavoriteShowOrMovie();
+        AskFavoriteTeacher();
+        AskFavoriteClass();
+        AskFavoriteHoliday();
+        AskFavoriteSeason();
+        AskDreamJob();
+        CalculateAgeIn5Years(age);
+        AskNumberOfSiblings();
+        DisplaySummaryMessage();
     }
 
     public static void AskName()
@@ -99,9 +108,9 @@ public class Program
          dreamJob = Console.ReadLine();
     }
 
-    public static void CalulateAgeIn5Years(int age)
+    public static void CalculateAgeIn5Years(int currentAge)
     {
-        Console.WriteLine("Your age in 5 years will be " + (age + 5) + "!");
+        Console.WriteLine("Your age in 5 years will be " + (currentAge + 5) + "!");
     }
 
     public static void AskNumberOfSiblings()
