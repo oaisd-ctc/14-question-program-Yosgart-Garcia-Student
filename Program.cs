@@ -111,7 +111,8 @@ public class Program
     public static void CalculateAgeIn5Years(string currentAge)
     {
         int intAge = int.Parse(currentAge);
-        Console.WriteLine("Your age in 5 years will be " + (intAge + 5) + "!");
+        ageIn5Years = (intAge + 5).ToString();
+        Console.WriteLine("Your age in 5 years will be " + ageIn5Years + "!");
     }
 
     public static void AskNumberOfSiblings()
